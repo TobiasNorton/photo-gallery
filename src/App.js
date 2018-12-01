@@ -6,6 +6,12 @@ import data from './data.json'
 import CategoryList from './CategoryList.js'
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {}
+  }
+
   render() {
     return (
       <div>
