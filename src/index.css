@@ -16,10 +16,19 @@ h1 {
 }
 
 .category-list {
-  /* display: flex;
-  justify-content: space-evenly; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
   width: 30rem;
+  display: block;
+  margin: 2rem;
 }

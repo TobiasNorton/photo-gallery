@@ -9,7 +9,10 @@ class PhotoDetail extends Component {
     console.log(category, index)
     return (
       <div className="photo-detail">
+        <h3>"{data[category].photos[index].title}"</h3>
         <img src={data[category].photos[index].imageURL} />
+        <Link to={`/${category}`}>Back to {`${data[category].title}`}</Link>
+        <Link to="/">Back to Categories</Link>
       </div>
     )
   }

@@ -18,6 +18,7 @@ class PhotoList extends Component {
             </>
           )
         })}
+        <Link to="/">Back to Categories</Link>
       </div>
     )
   }
