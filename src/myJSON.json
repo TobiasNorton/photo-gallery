@@ -1,33 +1,105 @@
 {
-  "pandas": {
-    "title": "Panda Bears",
-    "description": "Pandas are bears native to south-central China, and are objectively the cutest animals on earth.",
+  "james_jean": {
+    "title": "James Jean",
+    "description": "Bold and unrelenting, his work has so much movement it almost seems to dance right before you.",
     "photos": [
       {
-        "title": "Panda Waving",
-        "imageURL": "https://cdn-images-1.medium.com/max/1600/1*i1vVm3EqqDIkyucD0079wg.jpeg",
-        "sourceURL": "https://codeburst.io/pandas-for-data-stuff-code-challenge-7972207a8294"
+        "title": "Adrift",
+        "imageURL": "https://static1.squarespace.com/static/5484b3b4e4b0883e5fe5efa4/55343a88e4b03d5a7f77d235/55343b31e4b03cb74b7ea04d/1429486666504/adrift-final-webres.jpg?format=1500w",
+        "sourceURL": "http://www.jamesjean.com/work2015/rknvnleg6svyqb8v9hxqy4h8gx7e6v"
       },
       {
-        "title": "Großer Panda im Ocean Park, Hongkong",
-        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/2560px-Grosser_Panda.JPG",
-        "sourceURL": "https://en.wikipedia.org/wiki/Giant_panda"
+        "title": "Shield",
+        "imageURL": "https://static1.squarespace.com/static/5484b3b4e4b0883e5fe5efa4/5484ee0be4b0fb60932a4011/5488bdf5e4b051e70e15ba69/1419284774280/jamesjean-linkinpark-sheild-pattern-medres.jpg?format=750w",
+        "sourceURL": "http://www.jamesjean.com/sketch2014/lgmo7y3acv975atjzz7q2ag3zsd27r"
+      },
+      {
+        "title": "Unagi",
+        "imageURL": "https://static1.squarespace.com/static/5484b3b4e4b0883e5fe5efa4/5484ee0be4b0fb60932a4011/54890670e4b0ef80eae40837/1419284628714/unagi-insta.jpg?format=1500w",
+        "sourceURL": "http://www.jamesjean.com/sketch2014/5azc2nnsbcdwyfhjlvrobz1dbz3hr2"
+      },
+      {
+        "title": "Elk",
+        "imageURL": "https://static1.squarespace.com/static/5484b3b4e4b0883e5fe5efa4/5484ee0be4b0fb60932a4011/5488e3e7e4b0f03c94e399da/1419284923059/jamesjean-linkinpark-elk-color2-test.jpg?format=1500w",
+        "sourceURL": "http://www.jamesjean.com/sketch2014/wgzlqokqfqdqxk3edxfe3l4ssz7bdp"
       }
     ]
   },
-  "miniatures": {
-    "title": "Miniature Painting",
-    "description": "I enjoy painting miniatures. I've only been painting for about 6-months, here's some of my work.",
+  "jaw_cooper": {
+    "title": "Jaw Cooper",
+    "description": "Human and animals, both surreal and elegant.",
     "photos": [
       {
-        "title": "Blood Rage, Ram Clan",
-        "imageURL": "https://instagram.ftpf1-1.fna.fbcdn.net/vp/ac13de8676b9e7d7b3a4f1aaf38a9a55/5C3728A2/t51.2885-15/e35/32203464_178578342778306_8009127367152762880_n.jpg",
-        "sourceURL": "https://www.instagram.com/p/BjRKLqYh4gK/?taken-by=ambethia"
+        "title": "Shapeshifter",
+        "imageURL": "https://carbonmade-media.accelerator.net/20230833;1224x1600.webp",
+        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
       },
       {
-        "title": "Cormac the Druid, work in progress",
-        "imageURL": "https://instagram.ftpf1-1.fna.fbcdn.net/vp/fbe274a10d9f125721b996b1c900a38a/5BFA5B76/t51.2885-15/e35/37190638_643058652730656_5948932439748378624_n.jpg",
-        "sourceURL": "https://www.instagram.com/p/Bl09Fg3jM54/?taken-by=ambethia"
+        "title": "Mischief",
+        "imageURL": "https://carbonmade-media.accelerator.net/29259640;1186x1600.webp",
+        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
+      },
+      {
+        "title": "Untitled",
+        "imageURL": "https://carbonmade-media.accelerator.net/27552671;1120x1600.webp",
+        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
+      },
+      {
+        "title": "Sound the Alarm",
+        "imageURL": "https://www.blouinartinfo.com/sites/default/files/jaw-cooper-sound-the-alarm.jpg",
+        "sourceURL": "https://www.blouinartinfo.com/news/story/2403528/impermanence-at-spoke-nyc-new-york"
+      }
+    ]
+  },
+  "jeff_soto": {
+    "title": "Jeff Soto",
+    "description": "His work is violently playful.",
+    "photos": [
+      {
+        "title": "Mountain Giants",
+        "imageURL": "https://pro2-bar-s3-cdn-cf3.myportfolio.com/b57800587fecbaa27ed4344eda384834/4579bd3a49f9e3fa801703f0_rw_1200.jpg?h=110c5202c193145a146afaa36ad5aab6",
+        "sourceURL": "https://jeffsoto.com/urban-nation-berlin"
+      },
+      {
+        "title": "Sun, Earth and Moon",
+        "imageURL": "https://pro2-bar-s3-cdn-cf4.myportfolio.com/b57800587fecbaa27ed4344eda384834/ff06398b43fe04487cb5d3cd_rw_1200.png?h=f9de27114ceae91558f6c42bda3306a5",
+        "sourceURL": "https://jeffsoto.com/sun-earth-and-moon"
+      },
+      {
+        "title": "Fall Waves",
+        "imageURL": "https://images.curiator.com/images/t_x/art/ba1128894ee43d44a07af0fb5bfa6a6e/jeff-soto-fall-waves.jpg",
+        "sourceURL": "https://curiator.com/art/jeff-soto/fall-waves"
+      },
+      {
+        "title": "Untitled",
+        "imageURL": "http://alfalfastudio.com/wp-content/uploads/2010/02/artRAM_RustySwingset.jpg",
+        "sourceURL": "http://alfalfastudio.com/2010/02/18/the-work-of-jeff-soto/"
+      }
+    ]
+  },
+  "michael_reedy": {
+    "title": "Michael Reedy",
+    "description": "Figure drawing and beyond.",
+    "photos": [
+      {
+        "title": "Done",
+        "imageURL": "http://www.michaelreedy.gallery/assets/images/art/art/050a0ba49e888f298bfd1a09300bed17.jpg",
+        "sourceURL": "http://www.michaelreedy.gallery/galleries/skulls/done.221"
+      },
+      {
+        "title": "Undone",
+        "imageURL": "http://www.michaelreedy.gallery/assets/images/art/art/resize/9249c44b39c63d95d1a161d4f859e029.jpg",
+        "sourceURL": "http://www.michaelreedy.gallery/galleries/skulls/undone.240"
+      },
+      {
+        "title": "Untitled",
+        "imageURL": "http://www.thephotophore.com/wp-content/uploads/2017/02/michael_reedy_002.jpg",
+        "sourceURL": "http://www.thephotophore.com/michael-reedy/"
+      },
+      {
+        "title": "Untitled",
+        "imageURL": "http://www.thephotophore.com/wp-content/uploads/2017/02/michael_reedy_001.jpg",
+        "sourceURL": "http://www.thephotophore.com/michael-reedy/"
       }
     ]
   }
