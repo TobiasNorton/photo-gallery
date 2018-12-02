@@ -1,13 +1,24 @@
 import React, { Component } from 'react'
-import PhotoList from './PhotoList.js'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import data from './data.json'
 
 class CategoryList extends Component {
   render() {
     return (
       <div className="category-list">
-        <a href="#">Pandas Photos</a>
-        <a href="#">Miniature Paintings Photos</a>
+        <h3>Choose a Category</h3>
+        <section>
+          {Object.keys(data).map((category, index) => {
+            return (
+              <div>
+                <Link to={`/${category}`} key={index}>
+                  {data[category].title}
+                </Link>
+                <p key={index}>{data[category].description}</p>
+              </div>
+            )
+          })}
+        </section>
       </div>
     )
   }
