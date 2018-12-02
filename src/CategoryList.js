@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import data from './data.json'
-
+// import data from './myJSON.json'
+import data from './myJSON.json'
 class CategoryList extends Component {
   render() {
     return (

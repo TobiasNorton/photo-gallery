@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import data from './data.json'
+// import data from './data.json'
+import data from './myJSON.json'
 import { Link } from 'react-router-dom'
 
 class PhotoDetail extends Component {

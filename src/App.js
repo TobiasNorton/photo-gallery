@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
-import data from './data.json'
+// import data from './data.json'
+import data from './myJSON.json'
 import PhotoList from './PhotoList'
 import CategoryList from './CategoryList'
 import PhotoDetail from './PhotoDetail'
