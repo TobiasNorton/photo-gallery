@@ -1,17 +1,23 @@
 import React, { Component } from 'react'
 import data from './data.json'
+import { Link } from 'react-router-dom'
 
 class PhotoList extends Component {
-  test = () => {
-    console.log(this.props)
-  }
-
   render() {
+    console.log(this.props)
+    let category = this.props.match.params.category
     return (
       <div className="photo-list">
-        {this.test()}
-        {/* {Object.keys(data)} */}
-        {/* <Link to="/panda_photos/:photoNumber">Foobar</Link> */}
+        {data[category].photos.map((photo, index) => {
+          return (
+            <>
+              {console.log(category)}
+              <Link to={`/${category}/${index}`} key={index}>
+                <img src={photo.imageURL} />
+              </Link>
+            </>
+          )
+        })}
       </div>
     )
   }
