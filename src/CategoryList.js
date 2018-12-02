@@ -5,15 +5,10 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 class CategoryList extends Component {
   render() {
     return (
-      <Router>
-        <div className="category-list">
-          <Link to="/pandas">Pandas Photos</Link>
-          <Link to="/home">Miniature Painting Photos</Link>
-
-          <Route path="/panda_photos/" component={PhotoList} />
-          <Route path="/miniature_photos/" component={PhotoList} />
-        </div>
-      </Router>
+      <div className="category-list">
+        <a href="#">Pandas Photos</a>
+        <a href="#">Miniature Paintings Photos</a>
+      </div>
     )
   }
 }

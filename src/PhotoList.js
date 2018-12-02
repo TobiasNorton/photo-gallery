@@ -3,7 +3,11 @@ import data from './data.json'
 
 class PhotoList extends Component {
   render() {
-    return <div />
+    return (
+      <div className="photo-list">
+        <p>{data.pandas.title}</p>
+      </div>
+    )
   }
 }
 

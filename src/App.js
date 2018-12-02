@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import './App.css'
 import data from './data.json'
-
-import CategoryList from './CategoryList.js'
+import PhotoList from './PhotoList'
+import CategoryList from './CategoryList'
+import PhotoDetail from './PhotoDetail'
 
 class App extends Component {
   constructor(props) {
@@ -11,12 +11,11 @@ class App extends Component {
 
     this.state = {}
   }
-
   render() {
     return (
-      <div>
+      <div className="App">
         <h1>Photo Gallery</h1>
-        <CategoryList />
+        <PhotoDetail />
       </div>
     )
   }
