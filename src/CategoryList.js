@@ -6,12 +6,16 @@ class CategoryList extends Component {
   render() {
     return (
       <div className="category-list">
-        <h3>Choose a Category</h3>
+        <h3>Choose an artist to see some of their work:</h3>
         <section>
           {Object.keys(data).map((category, index) => {
             return (
-              <div>
-                <Link to={`/${category}`} key={index}>
+              <div className="artist">
+                <Link to={`/${category}`} className="link" key={index}>
+                  <img src={data[category].photos[1].imageURL} className="preview-image" />
+                </Link>
+
+                <Link to={`/${category}`} className="link" key={index}>
                   {data[category].title}
                 </Link>
                 <p key={index}>{data[category].description}</p>

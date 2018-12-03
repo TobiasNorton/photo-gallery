@@ -11,7 +11,7 @@ class PhotoDetail extends Component {
     return (
       <div className="photo-detail">
         <h3>"{data[category].photos[index].title}"</h3>
-        <img src={data[category].photos[index].imageURL} />
+        <img src={data[category].photos[index].imageURL} className="image-detail" />
         <Link to={`/${category}`}>Back to {`${data[category].title}`}</Link>
         <Link to="/">Back to Categories</Link>
       </div>

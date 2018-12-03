@@ -14,7 +14,7 @@ class PhotoList extends Component {
             <>
               {console.log(category)}
               <Link to={`/${category}/${index}`} key={index}>
-                <img src={photo.imageURL} />
+                <img src={photo.imageURL} className="list-pic" />
               </Link>
             </>
           )

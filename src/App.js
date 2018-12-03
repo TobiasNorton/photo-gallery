@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <h1>Photo Gallery</h1>
+          <h1>A Few of My Favorite Artists</h1>
           <Route exact path="/" component={CategoryList} />
           <Route exact path="/:category/" component={PhotoList} />
           <Route exact path="/:category/:photoNumber" component={PhotoDetail} />
