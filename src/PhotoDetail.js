@@ -12,8 +12,15 @@ class PhotoDetail extends Component {
       <div className="photo-detail">
         <h3>"{data[category].photos[index].title}"</h3>
         <img src={data[category].photos[index].imageURL} className="image-detail" />
-        <Link to={`/${category}`}>Back to {`${data[category].title}`}</Link>
-        <Link to="/">Back to Categories</Link>
+
+        <section className="links-container">
+          <Link to={`/${category}`} className="bottom-link">
+            Back to {`${data[category].title}`}
+          </Link>
+          <Link to="/" className="bottom-link">
+            Back to Home
+          </Link>
+        </section>
       </div>
     )
   }

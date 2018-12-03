@@ -12,14 +12,17 @@ class PhotoList extends Component {
         {data[category].photos.map((photo, index) => {
           return (
             <>
-              {console.log(category)}
               <Link to={`/${category}/${index}`} key={index}>
                 <img src={photo.imageURL} className="list-pic" />
               </Link>
             </>
           )
         })}
-        <Link to="/">Back to Categories</Link>
+        <section className="links-container">
+          <Link to="/" className="bottom-link">
+            Back to Home
+          </Link>
+        </section>
       </div>
     )
   }
