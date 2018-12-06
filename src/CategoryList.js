@@ -9,12 +9,12 @@ class CategoryList extends Component {
         <section>
           {Object.keys(data).map((category, index) => {
             return (
-              <div className="artist">
-                <Link to={`/${category}`} className="link" key={index}>
+              <div key={index} className="artist">
+                <Link to={`/${category}`} className="link">
                   <img src={data[category].photos[1].imageURL} className="preview-image" />
                 </Link>
 
-                <Link to={`/${category}`} className="link" key={index}>
+                <Link to={`/${category}`} className="link">
                   {data[category].title}
                 </Link>
                 <p key={index}>{data[category].description}</p>

@@ -10,11 +10,9 @@ class PhotoList extends Component {
       <div className="photo-list">
         {data[category].photos.map((photo, index) => {
           return (
-            <>
-              <Link to={`/${category}/${index}`} key={index}>
-                <img src={photo.imageURL} className="list-pic" />
-              </Link>
-            </>
+            <Link to={`/${category}/${index}`} key={index}>
+              <img src={photo.imageURL} className="list-pic" />
+            </Link>
           )
         })}
         <section className="links-container">
