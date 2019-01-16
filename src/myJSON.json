@@ -25,32 +25,6 @@
       }
     ]
   },
-  "jaw_cooper": {
-    "title": "Jaw Cooper",
-    "description": "Human and animals, surreal and elegant.",
-    "photos": [
-      {
-        "title": "Shapeshifter",
-        "imageURL": "https://carbonmade-media.accelerator.net/20230833;1224x1600.webp",
-        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
-      },
-      {
-        "title": "Mischief",
-        "imageURL": "https://carbonmade-media.accelerator.net/29259640;1186x1600.webp",
-        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
-      },
-      {
-        "title": "Untitled",
-        "imageURL": "https://carbonmade-media.accelerator.net/27552671;1120x1600.webp",
-        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
-      },
-      {
-        "title": "Sound the Alarm",
-        "imageURL": "https://www.blouinartinfo.com/sites/default/files/jaw-cooper-sound-the-alarm.jpg",
-        "sourceURL": "https://www.blouinartinfo.com/news/story/2403528/impermanence-at-spoke-nyc-new-york"
-      }
-    ]
-  },
   "jeff_soto": {
     "title": "Jeff Soto",
     "description": "Violently playful.",
@@ -74,6 +48,32 @@
         "title": "Untitled",
         "imageURL": "http://alfalfastudio.com/wp-content/uploads/2010/02/artRAM_RustySwingset.jpg",
         "sourceURL": "http://alfalfastudio.com/2010/02/18/the-work-of-jeff-soto/"
+      }
+    ]
+  },
+  "jaw_cooper": {
+    "title": "Jaw Cooper",
+    "description": "Human and animals, surreal and elegant.",
+    "photos": [
+      {
+        "title": "Shapeshifter",
+        "imageURL": "https://carbonmade-media.accelerator.net/20230833;1224x1600.webp",
+        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
+      },
+      {
+        "title": "Mischief",
+        "imageURL": "https://carbonmade-media.accelerator.net/29259640;1186x1600.webp",
+        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
+      },
+      {
+        "title": "Untitled",
+        "imageURL": "https://carbonmade-media.accelerator.net/27552671;1120x1600.webp",
+        "sourceURL": "https://jawcooper.carbonmade.com/projects/2120307"
+      },
+      {
+        "title": "Sound the Alarm",
+        "imageURL": "https://www.blouinartinfo.com/sites/default/files/jaw-cooper-sound-the-alarm.jpg",
+        "sourceURL": "https://www.blouinartinfo.com/news/story/2403528/impermanence-at-spoke-nyc-new-york"
       }
     ]
   },

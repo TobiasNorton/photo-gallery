@@ -6,7 +6,7 @@ class CategoryList extends Component {
     return (
       <div className="category-list">
         <h3>Choose an artist to see some of their work:</h3>
-        <section>
+        <section className="artists-container">
           {Object.keys(data).map((category, index) => {
             return (
               <div key={index} className="artist">
